@@ -1,0 +1,110 @@
+/* import fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Lexend+Deca:wght@100..900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Archivo" sans-serif;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lexend Deca", serif;
+
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* navigation */
+.outer-navigation {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)),url(https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+    margin: 0;
+    padding-top: 20px;
+}
+
+.nav-content {
+    max-width: 1500px;
+    margin: 0;
+    position: relative;
+    height: 100vh;
+
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation a:hover {
+    color: lightblue;
+}
+
+.right-navigation{
+    flex: 0.5;
+    text-align: right;
+    padding-right: 30px;
+
+}
+
+.right-navigation .login-link {
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+.left-navigation {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex: 0.5;
+}
+
+.left-navigation a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* hero styles */
+.main-title-container {
+    font-size: 2.2rem;
+    color: white;
+    max-width: 500px;
+    float: right;
+    position: absolute;
+    top: 30%;
+    right: 40px;
+    margin-left: 20;
+
+}
+
+.main-title-container button {
+    background-color: #867409;
+    color: white;
+    border: none;
+    font-size: 2rem;
+    padding: 10px 20px;
+}
