@@ -133,3 +133,39 @@ h6 {
 .arrow-down-navigation:hover {
     color: lightblue;
 }
+
+
+.sofa-row {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1500px;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.sofa-row .img-container {
+    width: 50%;
+}
+
+.sofa-row .img-container img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.sofa-row .text-container {
+    width: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sofa-row .text-container h2 {
+    font-size: 30px;
+}
+/*our mission*/
+.our-mission {
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5), url());
+}
