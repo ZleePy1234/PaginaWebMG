@@ -102,7 +102,7 @@ h6 {
 }
 
 .main-title-container button {
-    background-color: #867409;
+    background-color: darkcyan;
     color: white;
     border: none;
     font-size: 2rem;
@@ -184,4 +184,123 @@ h6 {
     align-items: center;
     justify-content: center;
     padding: 0px 40px;
+}
+
+.our-mission h2 {
+    font-size: 2rem;
+}
+
+.our-mission p {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.our-mission button {
+    border: 1px solid white;
+    padding: 10px 30px;
+    background-color: transparent;
+    color: white;
+}
+
+.our-mission button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+/*form*/
+.contact-form {
+    padding: 30px;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+.contact-form form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form input {
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.contact-form textarea {
+    width: 100%;
+}
+
+.contact-form button {
+    padding:  10px 30px;
+    cursor:  pointer;
+}
+
+.contact-form button:hover {
+    background-color: gray;
+}
+
+footer {
+    background-color: black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+    text-align: center;
+}
+
+/*login*/
+
+.login-navigation {
+    background-color: black;
+
+}
+
+.login-container {
+    display:  flex;
+    flex-wrap: wrap;
+}
+
+.left-login-container {
+    background-image: url(https://images.unsplash.com/photo-1680026548022-e76f693d0a62?q=80&w=1231&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    height: calc(100vh - 50px);
+    flex: 0.5;
+}
+
+.right-login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 0.5;
+}
+
+.right-login-container form {
+    margin: 0 auto;
+}
+
+.right-login-container input {
+    width: min(100%, 500px);
+    padding: 10px;
+    margin-top: 10px;
+    display: block;
+    font-size: 15px;
+}
+
+.right-login-container button {
+    padding: 10px 20x;
+    background: transparent;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.right-login-container button:hover {
+    background-color: black;
+    color: white;
 }
