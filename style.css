@@ -169,6 +169,45 @@ h6 {
 .sofa-row .text-container h2 {
     font-size: 30px;
 }
+.sofa-row button {
+    font-size: 30px;
+    color: #000000;
+    font-family: inherit;
+    font-weight: 800;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: color;
+  }
+  
+  .sofa-row button:focus,
+  .sofa-row button:hover {
+    color: #000000;
+  }
+  
+  .sofa-row button:focus:after,
+  .sofa-row button:hover:after {
+    width: 100%;
+    left: 0%;
+  }
+  
+  .sofa-row button:after {
+    content: "";
+    pointer-events: none;
+    bottom: -2px;
+    left: 50%;
+    position: absolute;
+    width: 0%;
+    height: 5px;
+    background-color: #000000;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: width, left;
+  }
 
 /*our mission*/
 .our-mission {
